@@ -1,0 +1,83 @@
+body{
+  background-image: url(imagen.jpg);
+  background-size: 100%;
+}
+.login-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.login-title{
+  position: absolute;
+  top: calc(48% - 75px);
+  left: calc(49% - 50px);
+  height: 150px;
+  width: 350px;
+  padding: 10px;
+  z-index: 2;
+}
+.login-content{
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(46% - 50px);
+  height: 150px;
+  width: 350px;
+  padding: 10px;
+  z-index: 2;
+}
+.sumbit{
+  width: 260px;
+  height: 35px;
+  background: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #a18d6c;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+.sumbit:hover{
+opacity: 0.8;
+}
+.sumbit:active{
+opacity: 0.6;
+}
+
+.regular-style{
+  width: 250px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+}
+
+.input-error{
+  width: 250px;
+height: 30px;
+background: transparent;
+border: 1px solid rgba(240, 73, 73, 0.6);
+border-radius: 2px;
+color: rgb(250, 248, 248);
+font-family: 'Exo', sans-serif;
+font-size: 16px;
+font-weight: 400;
+padding: 4px;
+}
+
+label{
+  color: rgb(31, 30, 30);
+  font-family: 'open sans condensed';
+  font-size: 1.20em;
+}
+
+
